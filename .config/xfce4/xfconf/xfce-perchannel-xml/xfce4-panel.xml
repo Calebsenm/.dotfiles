@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="size" type="uint" value="26"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="2"/>
+        <value type="int" value="1"/>
+        <value type="int" value="3"/>
+        <value type="int" value="4"/>
+        <value type="int" value="5"/>
+        <value type="int" value="7"/>
+        <value type="int" value="6"/>
+        <value type="int" value="10"/>
+        <value type="int" value="8"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+        <value type="int" value="14"/>
+      </property>
+      <property name="background-style" type="uint" value="2"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="mode" type="uint" value="1"/>
+      <property name="autohide-behavior" type="uint" value="2"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="applicationsmenu"/>
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="uint" value="1"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="2"/>
+    </property>
+    <property name="plugin-4" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="true"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="thunar"/>
+        <value type="string" value="miniaplicación gestor de la red"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="show-notifications" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="edge.instance10574;edge.instance12320;edge.instance1820;edge.instance2681;edge.instance3686;firefox.instance10956;firefox.instance1137;firefox.instance1144;firefox.instance1145;firefox.instance1146;firefox.instance1163;firefox.instance1237;firefox.instance1289;firefox.instance1290;firefox.instance1296;firefox.instance1304;firefox.instance1330;firefox.instance13423;firefox.instance1579;firefox.instance17495;firefox.instance1794;firefox.instance1842;firefox.instance2184;firefox.instance2206;firefox.instance25094;firefox.instance26519;firefox.instance2928;firefox.instance30268;firefox.instance3415;firefox.instance35916;firefox.instance5132;firefox.instance5179;firefox.instance7538;firefox.instance8213"/>
+    </property>
+    <property name="plugin-10" type="string" value="notification-plugin"/>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="mode" type="uint" value="2"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-14" type="string" value="actions"/>
+    <property name="plugin-7" type="string" value="power-manager-plugin"/>
+  </property>
+</channel>
