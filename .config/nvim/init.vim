@@ -51,11 +51,22 @@ Plug 'https://github.com/ryanoasis/vim-devicons' " Developer Icons
 Plug 'nvim-lua/plenary.nvim'
 "Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' } "telescope
 " or                                , { 'branch': '0.1.x' }
+Plug 'ayu-theme/ayu-vim' "
+
+
 call plug#end()
 
 
 "let g:NERDTreeDirArrowExpandable="+"
 "let g:NERDTreeDirArrowCollapsible="~"
+
+
+set termguicolors     " enable true colors support
+ let ayucolor="light"  " for light version of theme
+ let ayucolor="mirage" " for mirage version of theme
+let ayucolor="dark"   " for dark version of theme
+colorscheme ayu
+ 
 
 
 
